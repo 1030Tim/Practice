@@ -14,7 +14,6 @@ int main(){
         else{
             a += s[i]-'0';
         }
-
     }
     cout << abs(a-b)<<endl;
     return 0;
