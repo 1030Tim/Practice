@@ -4,7 +4,7 @@ g = 1
 for i in range(n):
     a,b = map(int,input().split())
     if ((a+count)>=b):
-        count += b
+        count += a
     else:
         g = -1
 

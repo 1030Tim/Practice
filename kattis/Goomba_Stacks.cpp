@@ -2,20 +2,19 @@
 using namespace std;
 int main(){
     int n;
-    cin >> n;
     int count = 0;
-    int flag = 0;
+    cin >> n;
     for (int i = 0; i<n ; i++){
-        int gi,bi;
-        cin >> gi >> bi;
-        if (i!=0 && count!=(gi+bi) ){
-            cout << "impossible"<<endl;
-            flag = 0;
-            break;
+        int a,b;
+        cin >> a >> b;
+        if (count+a >= b){
+            count += a;
         }
-        count = (gi+bi);
-    if (flag){
-        cout << "possible" << endl;
+        else{
+            cout << "impossible"<<endl;
+            return 0;
+        }
     }
-}
+    cout << "possible" << endl;
+    return 0;
 }
