@@ -1,16 +1,23 @@
 #include<iostream>
 using namespace std;
-int main(){
-    unsigned long long s;
-    unsigned long long d;
+signed main(){
+    string s;
     cin >> s;
-    d = s;
-    s %= 10;
-    if (s*1111 == d){
-        cout << "GREAT!!"<<endl;
-    } 
-    else{
-        cout <<"QAQ" << endl;
+    int count = 0;
+    if (s.size() == 4){
+        char c = s[0];
+        for (int i = 1; i<4 ; i++){
+            if (c == s[i]){
+                ++count;}
+        }
     }
-    
+    else{
+        cout << "OAQ" << endl;
+        return 0;
+    }
+    if (count == 4){
+        cout << "GREAT!" << endl;
+    }
+    else cout << "OAQ" << endl;;
+    return 0;
 }
