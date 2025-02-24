@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/juhn/Desktop/stady_file/classFile/scist/all_code/複習/kattis/output/shandy"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0xB0 }
+  - { offsetInCU: 0x3809, offset: 0x3809, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiEERKT_S3_S3_, symObjAddr: 0xB0, symBinAddr: 0x100003C7C, symSize: 0x2C }
+  - { offsetInCU: 0x4486, offset: 0x4486, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x108, symBinAddr: 0x100003CD4, symSize: 0x58 }
+  - { offsetInCU: 0x44C6, offset: 0x44C6, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiNS_6__lessIiiEEEERKT_S5_S5_T0_, symObjAddr: 0x160, symBinAddr: 0x100003D2C, symSize: 0x54 }
+  - { offsetInCU: 0x455B, offset: 0x455B, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x274, symBinAddr: 0x100003E40, symSize: 0x2C }
+  - { offsetInCU: 0x6DD5, offset: 0x6DD5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003BCC, symSize: 0xB0 }
+  - { offsetInCU: 0x6EB8, offset: 0x6EB8, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0xDC, symBinAddr: 0x100003CA8, symSize: 0x2C }
+  - { offsetInCU: 0x6EFE, offset: 0x6EFE, size: 0x8, addend: 0x0, symName: __ZNKSt3__16__lessIiiEclB7v160006ERKiS3_, symObjAddr: 0x1B4, symBinAddr: 0x100003D80, symSize: 0x34 }
+  - { offsetInCU: 0x6F3E, offset: 0x6F3E, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x1E8, symBinAddr: 0x100003DB4, symSize: 0x8C }
+  - { offsetInCU: 0x6FAA, offset: 0x6FAA, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x2A0, symBinAddr: 0x100003E6C, symSize: 0x38 }
+...
