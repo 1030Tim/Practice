@@ -4,7 +4,7 @@ signed main(){
     int n,count = 0;
     cin >> n;
     int m = n,arr[n][m];
-    int ans[1000][1000];//修改的地方100 -> 1000
+    long long ans[10000][100];//修改的地方100 -> 1000
     for (int i = 0 ; i<n ; i++){
         for (int j = 0 ; j<m ; j++){
             int k;

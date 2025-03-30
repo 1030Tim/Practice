@@ -1,1 +1,9 @@
-//url = "https://open.kattis.com/submissions/15509724"
+#include<iostream>
+using namespace std;
+signed main(){
+    int n;
+    cin >> n;
+    while (n>=10){
+        
+    }
+}
