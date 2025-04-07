@@ -2,20 +2,18 @@
 using namespace std;
 
 signed main(){
-    int n;
-    cin >> n;
-    int ary[n];
-
-    for (int i = 0 ; i<n ; i++){
-        int k;
-        cin >> k;
-        ary[i] = k;
+    int x;
+    cin >> x;
+    int arr[x];
+    for (int i = 0 ; i<x ; i++){
+        int k; cin >> k;
+        arr[i] = k;
     }
-    for (int i = 0 ; i<n ; i++){
-        for (int j = 0 ; j<n ; j++){
-            if ((ary[j]-ary[i])%200 == 0){
-
+    for (int i = 0 ; i<x ; i++){
+        for (int j = 0 ; j<x ; j++){
+            if (abs(arr[i]-arr[j])%200 == 0){
+                cout << i+1 << "," << j+1 << "\n";
             }
         }
-    }
+    } 
 }
