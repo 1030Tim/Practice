@@ -25,5 +25,6 @@ signed main()
         a3 = -1;
     }
     cout << a1 << " " << a2 << " " << a3 << endl;
+    
 
 }
