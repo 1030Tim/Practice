@@ -6,19 +6,18 @@ int deck[100000000];
 signed main(){
     int n;
     cin >> n;
-    int left = 100000000/2;
-    int right = 100000000/2;
+    int top = 100000000/2;
+    int down = 100000000/2;
 
-    for (int i = 0 ; i<n ; i++){ // the otimetion is O(N)
+    for (int i = 0 ; i<n ; i++){
         int t,x;
         cin >> t >> x;
 
         if (t == 1)
-            deck[--left] = x;
+            deck[--top] = x;
         else if (t == 2)
-            deck[right++] = x;
-        else
-            cout << deck[left+x-1] << "\n"; 
+            deck[down++] = x;
+        else 
+            cout << deck[top+x-1] << "\n";
     }
-    return 0;
 }
