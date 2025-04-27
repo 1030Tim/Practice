@@ -10,9 +10,11 @@ signed main(){
         int j ;
         cin >> j ;
         a[i] = j;
+        arr[j%200]++;
     }
 
-    // comput of answer program
+    arr[x] = %200 == x
+    for i = 0~199 -> arr[i]
 
     int count = 0 ; 
     for (int i = 0 ; i<n-1 ; i++){ // O(n)^2
