@@ -1,29 +1,33 @@
 #include<iostream>
+#in
 using namespace std;
 
+
+
 signed main(){
+    int count = 0;
     int n;
     cin >> n;
     int a[n];
+    int arr[200];
+    for (int i = 0 ; i<200 ; i++){
+        arr[i] = 0;
+    }
 
     for (int i = 0 ; i<n ; i++){
         int j ;
         cin >> j ;
         a[i] = j;
         arr[j%200]++;
+        if (arr[j%200]%2 == 0){
+            ++count;
+        }       // 1 1 1 1
+                // 1 2, 1 3, 1 4, 2 3, 2 4, 3 4
     }
 
-    arr[x] = %200 == x
-    for i = 0~199 -> arr[i]
+    // arr[x] = %200 == x
+    // for i = 0~199 -> arr[i]
 
-    int count = 0 ; 
-    for (int i = 0 ; i<n-1 ; i++){ // O(n)^2
-        for (int j = i+1 ; j<n ; j++){
-            if (abs(a[i]-a[j])%200 == 0){
-                ++count;
-            }
-        }
-    }
     cout << count << endl;
     return 0;
 }

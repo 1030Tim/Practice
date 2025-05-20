@@ -1,12 +1,8 @@
+t = len(list(str,input().split()))
 n = int(input())
-deck = [ ]
+acc = [ ]
 
 for i in range(n):
-    t,x = map(int,input().split())
+    k = str(input())
+    acc.append(k)
 
-    if (t == 1):
-        deck.insert(0,x)
-    elif (t == 2):
-        deck.append(x)
-    else:
-        print(deck[x-1])
