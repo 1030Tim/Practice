@@ -1,8 +1,20 @@
 #include<iostream>
+#include<string>
 using namespace std;
 
-signed main(){
-    string arr[4] = {"a","b","c","d"};
+int function(string x){
+    int k = x.size();
+    int count = 0;
+    for (int i = 0 ; i<k ; i++){
+        if (x[i] == ' '){
+            ++count;
+        }
+    }
+    return count;
+}
 
-    for (int i = 0 ; i<4 ; i++)
+signed main(){
+    string theString;
+    getline(cin,theString);
+    int t = function(theString);
 }
