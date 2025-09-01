@@ -37,7 +37,7 @@ int main() {
     }
     
     for (int i = lift ; i<right ; i++){
-        cout << stack[i] << " ";
+        cout << stack[i] ;
     }
 
 }

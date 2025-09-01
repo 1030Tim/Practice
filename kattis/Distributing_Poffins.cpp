@@ -1,14 +1,12 @@
 #include<iostream>
 using namespace std;
 int main(){
-    long long a,b;
-    cin >> a >> b;
-    long long c = b%a;
-   if (c>0){
-        cout << a-c << endl;
-   }
-   else{
-    cout << c << endl;
-   }
+    int n,m;
+    cin >> n >> m;
+    int ans = 0;
+    if (m%n!=0){
+        ans = 1;
+    }
+    cout << ans << endl;
     return 0;
 }
